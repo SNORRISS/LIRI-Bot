@@ -76,6 +76,8 @@ function movie(){
 
 }
 
+function mainSearch(){
+
 if(searchType == "concert-this"){
    concert();
 
@@ -96,14 +98,10 @@ if(searchType == "concert-this"){
           return console.log(error);
         }
       
-        // We will then print the contents of data
-        console.log(data);
-      
-        // Then split it by commas (to make it more readable)
-        var dataArr = data.split(",");
-      
-        // We will then re-display the content as an array for later use.
-        console.log(dataArr);
+        searchType = dataArr[0];
+        query = dataArr[1];
+
+        mainSearch();
       
       });
 
@@ -112,3 +110,6 @@ if(searchType == "concert-this"){
     console.log("please enter a valid command");
 
 }
+}
+
+mainSearch();
