@@ -98,6 +98,11 @@ if(searchType == "concert-this"){
           return console.log(error);
         }
       
+       
+        var dataArr = data.split(",");
+      
+       
+
         searchType = dataArr[0];
         query = dataArr[1];
 
