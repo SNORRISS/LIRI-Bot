@@ -1,14 +1,14 @@
 # LIRI-Bot
-
-User searches an artist or band, and their upcoming concerts are displayed. The first argument must be "concert-this" and every argument after will be included in the search.
-
 ## Concert Search
+User searches an artist or band, and their upcoming concerts are displayed. The first argument must be "concert-this" and every argument after will be included in the search.
 ![Concert Search](./images/example1.png)
-User searches a song and a description and preview are linked. The first argument must be "concert-this" and every argument after will be included in the search.
-![Spotify Search](./images/example2.png)
 
 ## Spotify Search
-User searches a movie and various information is displayed. The first argument must be "concert-this" and every argument after will be included in the search.
+User searches a song and a description and preview are linked. The first argument must be "spotify-this-song" and every argument after will be included in the search.
+![Spotify Search](./images/example2.png)
+
+## Movie Search
+User searches a movie and various information is displayed. The first argument must be "movie-this" and every argument after will be included in the search.
 ![Movie Search](./images/example3.png)
 
 ## Search From File
